@@ -2,6 +2,12 @@
 {
     public class FileAccess
     {
+
+       static void Main(string[] args)
+        {
+
+        }
+
         /// <summary>
         /// Read from a file
         /// </summary>
@@ -69,5 +75,6 @@
                 throw new Exception("Exception thrown: " +  ioe.Message);
             }
         }
+
     }
 }
